@@ -1,5 +1,10 @@
 <?php
 
+uses(\Spatie\LaravelData\Tests\Casts\TestCase::class)->in('Casts');
+uses(\Spatie\LaravelData\Tests\Resolvers\TestCase::class)->in('Resolvers');
+uses(\Spatie\LaravelData\Tests\RuleInferrers\TestCase::class)->in('RuleInferrers');
+uses(\Spatie\LaravelData\Tests\Transformers\TestCase::class)->in('Transformers');
+
 /*
 |--------------------------------------------------------------------------
 | Test Case

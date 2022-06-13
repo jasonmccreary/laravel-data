@@ -1,5 +1,4 @@
 it('ma
-uses(TestCase::class);
 ps default types', function () {
     /** @var \Spatie\LaravelData\Tests\Fakes\ComplicatedData $data */
     $data = $this->action->execute(
